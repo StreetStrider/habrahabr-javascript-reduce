@@ -1,0 +1,21 @@
+{
+	"name": "habrahabr-javascript-reduce",
+	"version": "0.0.0",
+	"description": "examples supply for habrahabr article",
+
+	"author": "StreetStrider <teamfortresslife@gmail.com>",
+	"license": "MIT",
+
+	"private": true,
+
+	"main": "index.js",
+	"scripts":
+	{
+		"test": "jasmine-node --matchall --verbose tests/"
+	},
+	"keywords": [ "habrahabr", "reduce", "functools", "utils", "array" ],
+	"devDependencies":
+	{
+		"jasmine-node": "^1.14.3"
+	}
+}
