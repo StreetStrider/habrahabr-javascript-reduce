@@ -3,19 +3,27 @@
 	"version": "0.0.0",
 	"description": "examples supply for habrahabr article",
 
+	"keywords": [ "habrahabr", "reduce", "functools", "utils", "array" ],
+
 	"author": "StreetStrider <teamfortresslife@gmail.com>",
 	"license": "MIT",
 
 	"private": true,
 
-	"main": "index.js",
+	"directories":
+	{
+		"test": "tests"
+	},
 	"scripts":
 	{
 		"test": "jasmine-node --matchall --verbose tests/"
 	},
-	"keywords": [ "habrahabr", "reduce", "functools", "utils", "array" ],
 	"devDependencies":
 	{
 		"jasmine-node": "^1.14.3"
-	}
+	},
+
+	"homepage":            "https://github.com/StreetStrider/habrahabr-javascript-reduce",
+	"repository": { "url": "https://github.com/StreetStrider/habrahabr-javascript-reduce.git", "type": "git" },
+	"bugs":       { "url": "https://github.com/StreetStrider/habrahabr-javascript-reduce/issues" }
 }
