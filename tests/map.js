@@ -6,6 +6,7 @@ var
 
 describe('map via reduce', function ()
 {
+
 	function square (x)
 	{
 		return x * x;
