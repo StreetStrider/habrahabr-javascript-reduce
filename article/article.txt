@@ -117,6 +117,8 @@ npm install StreetStrider/habrahabr-javascript-reduce
 </source>
 В <code>src/</code> лежат примеры функций, в <code>tests/</code> — jasmine-тесты. Прогнать все тесты можно с помощью <code>npm test</code>.
 
+В репозитории есть также ответ на вопрос о значении <code>Math.pow</code> при отсутствии степени (и другие граничные случаи).
+
 <h4>Другие <code>reduce</code></h4>
 * В JavaScript у <code>reduce</code> есть <s>злой брат-близнец</s> правосторонний аналог: <code>reduceRight</code>. Он нужен, чтобы агрегировать массивы справа-налево, без необходимости в дорогостоящем <code>reverse</code>.
 * LoDash/Underscore есть <code>_.reduce</code>,<code> _.reduceRight</code>. Они обладают рядом дополнительных возможностей.
