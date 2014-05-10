@@ -143,8 +143,10 @@ postgres=# SELECT SUM(x) IS NULL AS sum FROM (VALUES (1), (2), (3)) AS R(x) WHER
 -----
  t
 (1 row)
-
 </source>
+<h4>Итог</h4>
+<code>reduce</code> это мощная функция, в терминах которой можно выразить другие функции высшего порядка, такие как <code>map</code> и <code>filter</code>. С этой мощью, к <code>reduce</code> приходит и сложность. <code>reduce</code> можно с успехом применять для различных суммирований и группировок, однако, стоит помнить, что любое агрегирование можно переписать используя обычный цикл, который может оказаться более легкочитаемым.
+
 <h4>Ссылки<h4>
 <ol>
   <li><a href="http://javascript-puzzlers.herokuapp.com/">JavaScript Puzzlers</a>.</li>
@@ -152,7 +154,6 @@ postgres=# SELECT SUM(x) IS NULL AS sum FROM (VALUES (1), (2), (3)) AS R(x) WHER
   <li><a href='https://github.com/StreetStrider/habrahabr-javascript-reduce'>github:StreetStrider/habrahabr-javascript-reduce</a>.</li>
   <li><a href='http://learn.javascript.ru/array-iteration'>JavaScript.ru: Массив: Перебирающие методы</a>.</li>
 </ol>
-
 <h4>Благодарности</h4>
 Спасибо <hh user="subzey"/> за то, что натолкнул меня на мысль, что <code>reduce</code> может возвращать что угодно.
 Спасибо всем, кто напишет мне в личные сообщения об ошибках и недочётах в статье, а также в репозитории.
